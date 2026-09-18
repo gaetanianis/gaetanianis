@@ -1,0 +1,27 @@
+{
+  "extraKnownMarketplaces": {
+    "headroom-marketplace": {
+      "source": { "source": "github", "repo": "headroomlabs-ai/headroom" }
+    },
+    "ponytail": {
+      "source": { "source": "github", "repo": "dietrichgebert/ponytail" }
+    },
+    "thedotmack": {
+      "source": { "source": "github", "repo": "thedotmack/claude-mem" }
+    },
+    "claude-plugins-official": {
+      "source": { "source": "github", "repo": "anthropics/claude-plugins-official" }
+    },
+    "hyperframes": {
+      "source": { "source": "github", "repo": "heygen-com/hyperframes" }
+    }
+  },
+  "enabledPlugins": {
+    "headroom@headroom-marketplace": true,
+    "ponytail@ponytail": true,
+    "claude-mem@thedotmack": true,
+    "claude-mem-cowork@thedotmack": true,
+    "claude-code-setup@claude-plugins-official": true,
+    "core-skills@hyperframes": true
+  }
+}
